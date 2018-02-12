@@ -10,26 +10,72 @@
 /* Estilos Generales */
 
 body {
-	font-family: 'Text Me One', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .first-section {
-	background-color: #414347;
-	color:#8ee0d2;
-}
-.h1 {
-	color:black;
-}
-.grad70 {
-	background: linear-gradient(rgb(0,0,0) 65%, rgb(248, 0, 0));
-}
-.container-flex-column {
-	display:flex;
-	flex-direction:column;
-	justify-content: center;
-	padding:2em;
-	height: 100vh;
+	color:#000;
 }
 
-.vh100 {
-	height:100vh;
+/* Estilos nav */  
+
+.top-nav {
+	background-color: #ff785e;
 }
+.nav > li {
+    display: inline-block;
+    padding: 1.5em 2em;
+}
+ul.nav.navbar {
+    margin: 0;
+    text-align: center;
+}
+ul.nav.navbar li a {
+    color: #fff;
+    padding: 0;
+    font-size: 1.5em;
+    font-family: 'Text Me One', sans-serif;
+}
+ul.nav.navbar li a:hover,ul.nav.navbar li a.active{ 
+	color:#ec407a;
+	background:transparent;
+	outline:none;
+} 
+ul.nav.navbar li a:focus{ 
+	color:#fff;
+	background:transparent;
+	outline:none;
+} 
+/*-- Kumya --*/ 
+.w3ls-hover span {
+	display: block;
+	position: relative;
+} 
+.w3ls-hover span::before {
+	content: attr(data-letters);
+	position: absolute;
+	color: #000;
+	left: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0%;
+	-webkit-transition: width 0.6s;
+	-moz-transition: width 0.6s;
+	-o-transition: width 0.6s;
+	-ms-transition: width 0.6s;
+	transition: width 0.6s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	-moz-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	-o-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	-ms-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+} 
+.w3ls-hover:hover span::before {
+	width: 100%;
+}
+ul.nav.navbar li a.w3ls-icon{
+    font-size: 1.2em; 
+}
+ul.nav.navbar li a.w3ls-icon:hover {
+	color:#000;
+}
+/*-- //top-nav --*/
