@@ -1,0 +1,35 @@
+/* Seteo de archivos */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+/* Estilos Generales */
+
+body {
+	font-family: 'Text Me One', sans-serif;
+}
+.first-section {
+	background-color: #414347;
+	color:#8ee0d2;
+}
+.h1 {
+	color:black;
+}
+.grad70 {
+	background: linear-gradient(rgb(0,0,0) 65%, rgb(248, 0, 0));
+}
+.container-flex-column {
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	padding:2em;
+	height: 100vh;
+}
+
+.vh100 {
+	height:100vh;
+}
