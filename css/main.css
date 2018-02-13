@@ -19,7 +19,7 @@ body {
 /* Estilos nav */  
 
 .top-nav {
-	background-color: #ff785e;
+	background-color: #10e69d;
 }
 .nav > li {
     display: inline-block;
@@ -45,7 +45,7 @@ ul.nav.navbar li a:focus{
 	background:transparent;
 	outline:none;
 } 
-/*-- Kumya --*/ 
+/*-- Hover Nav Options  --*/ 
 .w3ls-hover span {
 	display: block;
 	position: relative;
@@ -78,4 +78,68 @@ ul.nav.navbar li a.w3ls-icon{
 ul.nav.navbar li a.w3ls-icon:hover {
 	color:#000;
 }
-/*-- //top-nav --*/
+
+/* === HOME === */
+@media (max-width : 640px) {
+    .tt-fullHeight{
+        height: 560px !important;
+    }
+}
+
+
+#home {
+	background: url(../images/home2.jpg) no-repeat center center;
+	-webkit-background-attachment: fixed;
+    background-attachment: fixed;
+	background-color: #222;
+	background-size: cover;
+	padding: 0;
+	position: relative;
+}
+#home:before {
+	content: "";
+	background-color: rgba(26, 30, 35, 0.85);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.intro {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	-webkit-transform: translate(0%, -50%);
+	   -moz-transform: translate(0%, -50%);
+		-ms-transform: translate(0%, -50%);
+		 -o-transform: translate(0%, -50%);
+			transform: translate(0%, -50%);
+	padding: 0 15px;
+}
+
+.intro h1{
+	font-size: 60px;
+	line-height: 80px;
+	margin-bottom: 16px;
+	color: #52b3d9;
+}
+.intro h1 span{
+	color: #68c3a3;
+}
+.intro p{
+	color: #f7f7f7;
+	margin-bottom: 40px;
+}
+
+.intro-sub {
+	color: #fff;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 20px;
+}
