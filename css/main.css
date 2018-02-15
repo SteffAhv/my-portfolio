@@ -107,7 +107,7 @@ ul.nav.navbar li a.w3ls-icon:hover {
 	  bottom: 0;
 	  left: 0;
 	  right: 0;
-	  background: url('http://economiademallorca.com/upload/img/periodico/img_8610.jpg') no-repeat center center;
+	  background: url('../assets/images/image-temp.jpg') no-repeat center center;
 	  -webkit-background-attachment: fixed;
       background-attachment: fixed;
 	  background-color: #222;
@@ -152,7 +152,12 @@ ul.nav.navbar li a.w3ls-icon:hover {
 	display: block;
 	margin-bottom: 20px;
 }
+
 /* About Section */
+
+#about {
+	background-color: #dbe1d9;
+}
 .short-info {
     margin-bottom: 40px;
 }
@@ -204,14 +209,14 @@ ul.nav.navbar li a.w3ls-icon:hover {
 }
 
 .myphoto{
-    position: relative;
+	position: relative;
+	z-index: 1006;
     background: url(../assets/images/photo-frame.png) bottom center no-repeat;
     background-size: contain;
 }
 
 .myphoto img{
     position: relative;
-    z-index: -1;
 }
 
 .biography ul{
