@@ -360,10 +360,23 @@ body {
 .biography ul li:last-child{
     border-bottom:0;
 }
+/* Estilos Skills Section*/
+#skills {
+    background-color: rgb(236, 255, 247);
+}
+.icon-sk {
+    max-width: 90px;
+    max-height: 90px;
+    opacity: 0.9;
+    border-radius:50%;
+    margin-bottom: 1.3em;
+    border-top: 3px solid mediumseagreen;
+    border-right: 3px solid mediumseagreen;
+}
 
 /* Estilos Projects Section */
 
-/*--- PORTFOLIO ---*/
+
 .content-section .thumbnail { position: relative; overflow: hidden; cursor: pointer; }
 .content-section .thumbnail * { transition: all .25s; }
 .content-section .thumbnail h4 { font-size: 19px; font-weight: 400; }
@@ -371,23 +384,21 @@ body {
 .content-section .thumbnail:hover h4, .content-section .thumbnail:hover p { color: #AFAFAF; }
 .content-section .thumbnail:hover img { opacity: 0.25;  }
 .content-section .thumbnail:after { font-family: 'Font Awesome 5 Brands';  content: '\f113'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
-.content-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: #AF6204; border:3px solid #FFFFFF; }
+.content-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: rgb(61, 202, 148); border:3px solid #FFFFFF; }
 
 
 /*--- CONTACT ---*/
 .hire-section {
-    background: url(../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
+    background: url(../assets/images/service-bg.jpg) no-repeat top center;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
+    z-index: 1000;
 }
 .hire-section-bg {
     padding: 110px 0;
-    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
-    background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/
-}
+    background-color: #33333363;
+} 
 
 .hire-section h2 {
     font-size: 36px;
@@ -396,10 +407,6 @@ body {
 
 .hire-section .btn {
     padding: 9px 54px;
-}
-
-.contact-section  {
-  
 }
 
 .contact-section strong {
