@@ -83,13 +83,14 @@ jQuery(function ($) {
         $('i').css({
           position: 'absolute',
           zIndex: '1',
-          top: imgPos.top + 100,
+          top: imgPos.top + 250,
+          left: imgPos.left -200
         });
         
         setTimeout(function() {
           $('#twitter').animate({
             top: twitterPos.top + 10,
-            left: twitterPos.left - 10
+            left: twitterPos.left - 110
           }, 500);
         }, 250);
         
@@ -113,7 +114,7 @@ jQuery(function ($) {
           
           $('#stack').animate({
             top: stackPos.top + 10,
-            left: stackPos.left - 3
+            left: stackPos.left + 20
           }, 500);
         }, 750);
         
@@ -137,7 +138,7 @@ jQuery(function ($) {
           
           $('#code').animate({
             top: codePos.top + 10,
-            left: codePos.left + 3
+            left: codePos.left +3
           }, 500);
         }, 1250);
         
@@ -149,14 +150,14 @@ jQuery(function ($) {
           
           $('#plus').animate({
             top: plusPos.top + 10,
-            left: plusPos.left + 6
+            left: plusPos.left +6
           }, 500);
         }, 1500);
         
         setTimeout(function() {
           $('#plus').animate({
             top: plusPos.top,
-            left: plusPos.left
+            left: plusPos.left 
           }, 250);
           
           $('#mail').animate({
