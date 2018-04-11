@@ -307,8 +307,42 @@
   		font-size: 14px;
   		margin-right: 20px;
 	}
+	.me {
+		margin: 16em auto 0 auto;
+	}
+	.intro h1  {
+		margin-top: 9em;
+	}
+	#home > div.intro > .ux {
+		font-size: 50px;
+		margin-top: 10em;
+	}
+	body {
+		height: 733px;
+	}
+	#home {
+		height: 733px;
+	}
+	.social {
+		font-size: 1.3em;
+		margin-top: -40%;
+	}
+	.social a {
+		display:block;
+		text-align: left;
+		margin: auto auto 0.5em -1em;
+	}
+	.social a i {
+		padding:0.3em;
+		background: rgb(229, 147, 176);
+		border: 1px solid #fff;
+	}
+	#home > div.intro > p {
+		text-align: justify;
+		padding: 0em 3em ;
+		margin-left: 1.5em;
 
-
+	}
 }
 
 
