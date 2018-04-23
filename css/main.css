@@ -87,7 +87,7 @@ a > * {
 a:focus,
 a:hover {
     outline: none;
-    color: #333333;
+    color: #dbdada;
     text-decoration: none;
 }
 
