@@ -272,7 +272,7 @@ body {
 
 .name-animation {
     font-family: 'Playfair Display', serif;
-	margin-top: 0;
+	margin-top: 15%;
 	text-align: center;
 	color: #fff;
 	display: flex;
@@ -649,4 +649,27 @@ body {
     margin: 1.5em;
     font-family: 'Raleway', sans-serif;
     font-size: 1.8em;
+}
+@media (max-width : 766px) {
+    .social {
+        margin-top: 40%
+    }
+    .me {
+        margin-top: 5%;
+        width: 120px;
+        height: 120px;
+    }
+    .intro h1{
+        margin-top:8em;
+        font-size: 43px;
+    }
+    .intro p {
+        margin-top: -5%;
+    }
+    .name-animation h1 {
+		line-height: 1;
+    }
+    #home {
+        height: 640px;
+    }
 }
