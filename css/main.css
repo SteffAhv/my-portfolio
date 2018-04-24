@@ -272,7 +272,7 @@ body {
 
 .name-animation {
     font-family: 'Playfair Display', serif;
-	margin-top: 15%;
+	margin-top: 0;
 	text-align: center;
 	color: #fff;
 	display: flex;
@@ -436,10 +436,6 @@ body {
 }
 .contact-form strong {
     margin-bottom: 40px;
-}
-
-.contact-form textarea.form-control {
-    height: 115px;
 }
 
 .contact-form .btn {
