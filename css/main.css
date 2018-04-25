@@ -404,7 +404,8 @@ body {
 .content-section .thumbnail p { line-height: 24px; }
 .content-section .thumbnail:hover h4, .content-section .thumbnail:hover p { color: #AFAFAF; }
 .content-section .thumbnail:hover img { opacity: 0.25;  }
-.content-section .thumbnail:after { font-family: 'Font Awesome 5 Brands';  content: '\f113'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
+/* .content-section .thumbnail:after { font-family: 'Font Awesome 5 Brands';  content: '\f113'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; } */
+.content-section .thumbnail:after { content: url('../assets/images/browser.png') ; color: #FFF; font-size: 55px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
 .content-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: rgb(61, 202, 148); border:3px solid #FFFFFF; }
 
 
