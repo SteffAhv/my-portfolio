@@ -279,7 +279,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 20vh;
+	height: auto;
 	letter-spacing: 0.8em;
 }
 .name-animation h1 {
@@ -288,7 +288,7 @@ body {
 	-webkit-background-clip: text;
     font-size: 70px;
 	line-height: .75;
-	margin: 10px 0;
+	margin: 10px 5px;
 }
 
 
@@ -661,15 +661,18 @@ body {
         height: 120px;
     }
     .intro h1{
-        margin-top:7.5em;
+        margin-top: 5em;
         font-size: 43px;
     }
     .intro p {
         margin: -5% 0 0 0;
     }
+    .name-animation {
+        margin-top: -5%;
+    }
     .name-animation h1 {
-        margin-top: 75%;
-		line-height: 1;
+        line-height: 1;
+        font-size: 40px;
     }
     #home {
         height: 640px;
